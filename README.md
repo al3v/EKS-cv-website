@@ -20,7 +20,7 @@ kubectl apply -f fathcv-deployment.yaml -f fathcv-service.yaml
 
 ## Get Service Information
 Retrieve information about the deployed service, including its link:
-PS: the service is in service.yaml
+PS: the service name is in service.yaml
 ```bash
 kubectl get svc fathcv-service
 ```
