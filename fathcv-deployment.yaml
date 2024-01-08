@@ -18,4 +18,4 @@ spec:
         ports:
         - containerPort: 80  # Assuming your app listens on port 80, change if necessary
       nodeSelector: 
-        eks.amazonaws.com/nodegroup: DeveloperPortalNg
+        eks.amazonaws.com/nodegroup: DeveloperPortalNg  # Assuming you are deploying this app on node groups called  'DeveloperPortalNg' that you created 
