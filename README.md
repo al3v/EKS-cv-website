@@ -25,7 +25,7 @@ kubectl apply -f fathcv-service.yaml -n my-namespace
 Retrieve information about the deployed service, including its link:
 PS: the service name is in service.yaml
 ```bash
-kubectl get svc fathcv-service
+kubectl get svc fathcv-service -n my-namespace
 ```
 
 
