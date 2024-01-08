@@ -1,6 +1,6 @@
 # CV Website Deployment on AWS EKS
 
-This repository contains the necessary configurations to deploy a Computer Vision (CV) website on Kubernetes using an Elastic Container Registry (ECR) image.
+This repository contains the necessary configurations to deploy a CV website on AWS EKS service using an Elastic Container Registry (ECR) image.
 
 
 ## Create Kubernetes Namespace
