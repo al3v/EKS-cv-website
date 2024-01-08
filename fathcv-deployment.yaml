@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: fathcv-container
-        image: 882314386132.dkr.ecr.ap-northeast-3.amazonaws.com/devresume:latest
+        image: 882314386132.dkr.ecr.ap-northeast-3.amazonaws.com/devresume:latest  # AWS ECR URI
         ports:
         - containerPort: 80  # Assuming your app listens on port 80, change if necessary
       nodeSelector: 
