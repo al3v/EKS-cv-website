@@ -16,6 +16,8 @@ Apply the deployment and service configurations to deploy the CV website:
 
 ```bash
 kubectl apply -f fathcv-deployment.yaml -n my-namespace
+```
+```bash
 kubectl apply -f fathcv-service.yaml -n my-namespace
 ```
 
