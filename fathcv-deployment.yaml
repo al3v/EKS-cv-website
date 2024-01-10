@@ -17,5 +17,5 @@ spec:
         image: 882314386132.dkr.ecr.ap-northeast-3.amazonaws.com/devresume:latest  # AWS ECR URI
         ports:
         - containerPort: 80  # Assuming your app listens on port 80, change if necessary
-      nodeSelector: 
-        eks.amazonaws.com/nodegroup: DeveloperPortalNg  # Assuming you are deploying this app on node groups called  'DeveloperPortalNg' that you created 
+      nodeSelector:
+        eks.amazonaws.com/nodegroup: WebMethod-NG  # Assuming you are deploying this app on node groups called  'WebMethod-NG' that you created
